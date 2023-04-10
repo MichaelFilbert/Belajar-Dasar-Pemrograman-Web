@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Masakuy</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  </head>
+  <body>
+<!--Header-->
+    <header>
+      <div class="baner">
+        <h1>Masakuy</h1>
+      </div>
+      <nav class="nav-list">
+        <ul>
+          <li><a href="#beranda">Beranda</a></li>
+          <li><a href="#fitur">Fitur</a></li>
+          <li><a href="#tentang">Tentang Kami</a></li>
+        </ul>
+      </nav>
+    </header>
+<!--Main-->
+    <main>
+      <div id="content beranda">
+        <div class="card" id="beranda">
+          <h2>Beranda</h2>
+          <p>Masakuy diciptakan untuk membantu anda mengasah skill memasak untuk keluarga tercinta.
+            Karena kami percaya dengan makanan istimewa akan membuat keluarga lebih sejahtera
+          </p>
+          <img class="featured-image" src="img/7.jpg" alt="beranda" />
+        </div>
+<!--Fitur-->
+        <div id="fitur">
+          <h2 align: center>Fitur</h2>
+        <div class="container">
+          <main class="grid">
+            <article>
+              <img src="img/2.jpg" width="300px" height="300px">
+              <div>
+                <h2>Menu Hari ini</h2>
+                <p>Kami menyediakan menu rekomendasi untuk hari ini.</p>
+              </div>
+            </article>
+            <article>
+              <img src="img/4.jpg" width="300px" height="300px">
+              <div>
+                <h2>Skillboost</h2>
+                <p>Kami menyediakan challenge setiap harinya untuk meningkatkan skill memasak anda</p>
+              </div>
+            </article>
+            <article>
+              <img src="img/6.jpg" width="300px" height="300px">
+              <div>
+                <h2>Menu Populer</h2>
+                <p>Kami menyediakan resep untuk menu populer setiap minggunya</p>
+              </div>
+            </article>
+          </main>
+        </div>
+        </div>
+<!--Tentang-->
+        <article class="card" id="tentang">
+          <h2>Tentang Kami</h2>
+          <div class="container">
+            <main class="grid">
+              <article>
+                <img src="img/DSC_1629.jpg" width="300px" height="300px">
+                <div>
+                  <h2>Michael Filbert Tanadi</h2>
+                  <p>Michael merupakan orang yang membuat ide dan desain web yang dipakai.</p>
+                </div>
+              </article>
+              <article>
+                <img src="img/gordon.jpg" width="300px" height="300px">
+                <div>
+                  <h2>Gordon Ramsay</h2>
+                  <p>Gordon menjadi chef yang akan mengasah skill memasak anda.</p>
+                </div>
+              </article>
+              <article>
+                <img src="img/nusret.jpeg" width="300px" height="300px">
+                <div>
+                  <h2>Nusret Gokce</h2>
+                  <p>Dikenal lain sebagai Salt Bae yang terkenal akan show beefsteak.</p>
+                </div>
+              </article>
+            </main>
+          </div>
+          </div>
+<!--Aside-->
+      <aside>
+          <div class="social-media">
+            <ul>
+              <li><a href="https://www.instagram.com/michael_filbert/"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/michael-filbert-39217a248/"><i class="fab fa-linkedin-in"></i></a></li>
+              <li><a href="#"><i class="fab fa-discord"></i></a></li>
+              <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+            </ul>
+          </div>
+        </aside>
+    </main>
+<!--Footer-->
+    <footer>
+      <p>Masakuy &#169; 2023, Michael Cooperation</p>
+    </footer>
+<!--kursor js-->
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+    <script>
+      var cursor = document.querySelector(".cursor");
+      var cursor2 = document.querySelector(".cursor2");
+      document.addEventListener("mousemove", function(e){
+        cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX
+        + "px; top: " + e.clientY + "px;";
+      });
+    </script>
+  </body>
+</html>
+
